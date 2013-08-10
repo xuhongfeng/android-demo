@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dip"
+        >
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            style="@style/Text.xlarge.blackDeep"
+            />
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            style="@style/Text.large.black"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true">
+        <Button
+            android:id="@+id/btn_desc"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/text_count"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:minWidth="20dip"
+            />
+        <Button
+            android:id="@+id/btn_incr"
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout >
+</merge>
